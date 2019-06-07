@@ -1,0 +1,19 @@
+{
+    "name": "zloykolobok/chatapi",
+    "description": "WhatsApp API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Nikolaenkov",
+            "email": "rnikolaenkov@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zloykolobok\\Chatapi\\": "src/"
+        }
+    }
+}
