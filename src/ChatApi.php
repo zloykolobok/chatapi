@@ -3,10 +3,12 @@ namespace Zloykolobok\Chatapi;
 
 class ChatApi
 {
+    public $url;
     public $apiKey;
 
-    public function __construct($apiKey)
+    public function __construct($url, $apiKey)
     {
+        $this->url = $url;
         $this->apiKey = $apiKey;
     }
 

@@ -17,7 +17,7 @@ class Message extends ChatApi
      */
     public function sendMessage($phone,$chatId,$body)
     {
-        $url = 'https://foo.chat-api.com/message?token='.$this->apiKey;
+        $url = $this->url.'/sendMessage?token='.$this->apiKey;
         $data = [];
 
         if(!is_null($phone)){
